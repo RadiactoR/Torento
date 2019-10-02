@@ -1,0 +1,29 @@
+.r {
+  color: #bf0000;
+}
+
+.g {
+  color: #00bf73;
+}
+
+body {
+  background-color: #222;
+  min-height: 100vh;
+  color: #FFF;
+}
+
+html {
+  min-height: 100vh;
+}
+
+span.navbar-text {
+  color: #FFF !important;
+  font-size: 1.5em !important;
+  font-weight: bold;
+}
+
+.navbar-dark {
+  background-color: #333 !important;
+}
+
+/*# sourceMappingURL=overrides.css.map */

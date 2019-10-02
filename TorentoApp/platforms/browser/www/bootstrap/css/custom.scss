@@ -1,0 +1,31 @@
+$bg: #222;
+$menu-bg: #333;
+$textcolor1: #FFF;
+
+.r {
+	color: rgb(191, 0, 0);
+}
+
+.g {
+	color: rgb(0, 191, 115);
+}
+
+body {
+	background-color:  $bg;
+	min-height: 100vh;
+	color: $textcolor1;
+}
+
+html {
+	min-height: 100vh;
+}
+
+span.navbar-text {
+	color: $textcolor1 !important;
+	font-size: 1.5em !important;
+	font-weight: bold;
+}
+
+.navbar-dark {
+	background-color: $menu-bg !important;
+}
