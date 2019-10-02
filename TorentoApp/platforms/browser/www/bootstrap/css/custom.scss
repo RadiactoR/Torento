@@ -2,6 +2,18 @@ $bg: #222;
 $menu-bg: #333;
 $textcolor1: #FFF;
 
+@font-face {
+	font-family: Roboto;
+	src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url("../../fonts/Roboto/Roboto-Bold.ttf");
+	font-weight: bold;
+}
+
 .r {
 	color: rgb(191, 0, 0);
 }
@@ -20,12 +32,44 @@ html {
 	min-height: 100vh;
 }
 
-span.navbar-text {
+.navbar-text {
 	color: $textcolor1 !important;
-	font-size: 1.5em !important;
+	font-size: 1.7em !important;
+	font-family: Roboto !important;
 	font-weight: bold;
 }
 
 .navbar-dark {
 	background-color: $menu-bg !important;
 }
+
+p {
+	color: $textcolor1;
+}
+
+
+.container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.pizzaCard {
+	background-color: hsl(47, 100, 96);
+	width: 80%;
+	margin: 0 auto;
+	padding: 0.7em 0;
+	
+	img {
+		background-color: hsl(47, 30, 80);
+		width: 100%;
+	}
+	
+}
+
+.pizzaTitle {
+	font-size: 1.2em;
+	color: #000;
+	padding: 0 0 0 0.5em;
+	margin: 0;
+}
+
