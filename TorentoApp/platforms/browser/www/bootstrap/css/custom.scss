@@ -1,5 +1,5 @@
-$bg: #222;
-$menu-bg: #333;
+$bg: #FFF;
+$menu-bg: #222;
 $textcolor1: #FFF;
 
 @font-face {
@@ -43,6 +43,21 @@ html {
 	background-color: $menu-bg !important;
 }
 
+.navbar-toggle {
+	font-family: Roboto;
+	outline: none;
+	border: none;
+	color: $textcolor1;
+	background-color: rgba(0,0,0,0);
+	
+	&:focus {
+		outline: none;
+	}
+	
+}
+
+
+
 p {
 	color: $textcolor1;
 }
@@ -56,7 +71,7 @@ p {
 .pizzaCard {
 	background-color: hsl(47, 100, 96);
 	width: 80%;
-	margin: 0 auto;
+	margin: 6em auto 0 auto;
 	padding: 0.7em 0;
 	
 	img {
@@ -71,5 +86,6 @@ p {
 	color: #000;
 	padding: 0 0 0 0.5em;
 	margin: 0;
+	font-weight: bold;
 }
 

@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: #222;
+  background-color: #FFF;
   min-height: 100vh;
   color: #FFF;
 }
@@ -34,7 +34,18 @@ html {
 }
 
 .navbar-dark {
-  background-color: #333 !important;
+  background-color: #222 !important;
+}
+
+.navbar-toggle {
+  font-family: Roboto;
+  outline: none;
+  border: none;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-toggle:focus {
+  outline: none;
 }
 
 p {
@@ -49,7 +60,7 @@ p {
 .pizzaCard {
   background-color: #fffbeb;
   width: 80%;
-  margin: 0 auto;
+  margin: 6em auto 0 auto;
   padding: 0.7em 0;
 }
 .pizzaCard img {
@@ -62,6 +73,7 @@ p {
   color: #000;
   padding: 0 0 0 0.5em;
   margin: 0;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=overrides.css.map */
