@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../../fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: bold;
+}
 .r {
   color: #bf0000;
 }
@@ -16,14 +26,19 @@ html {
   min-height: 100vh;
 }
 
-span.navbar-text {
+.navbar-text {
   color: #FFF !important;
-  font-size: 1.5em !important;
+  font-size: 1.7em !important;
+  font-family: Roboto !important;
   font-weight: bold;
 }
 
 .navbar-dark {
   background-color: #333 !important;
+}
+
+p {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=overrides.css.map */
