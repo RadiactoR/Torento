@@ -41,4 +41,27 @@ p {
   color: #FFF;
 }
 
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.pizzaCard {
+  background-color: #fffbeb;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.7em 0;
+}
+.pizzaCard img {
+  background-color: #dbd5bd;
+  width: 100%;
+}
+
+.pizzaTitle {
+  font-size: 1.2em;
+  color: #000;
+  padding: 0 0 0 0.5em;
+  margin: 0;
+}
+
 /*# sourceMappingURL=overrides.css.map */

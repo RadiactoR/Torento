@@ -46,3 +46,30 @@ html {
 p {
 	color: $textcolor1;
 }
+
+
+.container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.pizzaCard {
+	background-color: hsl(47, 100, 96);
+	width: 80%;
+	margin: 0 auto;
+	padding: 0.7em 0;
+	
+	img {
+		background-color: hsl(47, 30, 80);
+		width: 100%;
+	}
+	
+}
+
+.pizzaTitle {
+	font-size: 1.2em;
+	color: #000;
+	padding: 0 0 0 0.5em;
+	margin: 0;
+}
+
