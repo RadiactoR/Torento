@@ -108,6 +108,14 @@ html {
 }
 
 
+a {
+	&:focus, &:hover, &:active
+	{
+		text-decoration: none;
+	}
+}
+
+
 .pizzaListTitle {
 	font-family: Roboto;
 	font-size: 2em;
