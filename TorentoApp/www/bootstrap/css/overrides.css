@@ -74,6 +74,14 @@ html {
   max-width: 100vw !important;
 }
 
+section.tider {
+  margin: 10px;
+  text-align: center;
+  border: 5px;
+  border-color: red;
+  color: black;
+}
+
 .pizzaCard {
   background-color: #fffbeb;
   width: 87vw;
