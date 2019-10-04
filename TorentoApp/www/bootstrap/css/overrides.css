@@ -31,6 +31,18 @@ html {
   min-height: 100vh;
 }
 
+.basic-link {
+  text-decoration: underline;
+}
+
+.centered {
+  width: auto;
+  display: block;
+  font-family: Roboto;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .navbar-brand {
   color: #FFF !important;
   font-size: 1.7em !important;
@@ -58,6 +70,8 @@ html {
 .container {
   margin: 0 !important;
   padding: 0 !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
 }
 
 .pizzaCard {
