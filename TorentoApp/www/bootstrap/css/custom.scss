@@ -3,6 +3,10 @@ $menu-bg: #2f3542;
 $text-color1: #FFF;
 $border-color: #f1c40f;
 
+/*hsl(47, 100, 96);*/
+$card-color: #fcedbb;
+$card-border-color: #FDDB95;
+
 @font-face {
 	font-family: Roboto;
 	src: url("../../fonts/Roboto/Roboto-Regular.ttf");
@@ -123,10 +127,10 @@ p {
 
 
 .pizzaCard {
-	background-color: hsl(47, 100, 96);
+	background-color: $card-color;
 	
 	width: 87vw;
-	border: 0.1em solid rgba(0,0,0,0.2);
+	border: 0.1em solid $card-border-color;
 	
 	margin: 0 auto 2em auto;
 	padding: 0.3em 0 0 0;
