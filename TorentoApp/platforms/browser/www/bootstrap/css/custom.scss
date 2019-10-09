@@ -1,5 +1,5 @@
 $bg: #FFF;
-$menu-bg: #000;
+$menu-bg: #2f3542;
 $textcolor1: #FFF;
 
 @font-face {
@@ -39,6 +39,14 @@ body {
 	text-decoration: underline;
 }
 
+.under-border {
+	border-bottom: 0.05em solid $textcolor1;
+}
+
+.no-border {
+	border: none;
+}
+
 .centered {
 	width: auto;
 	display: block;
@@ -48,26 +56,26 @@ body {
 }
 
 
-.navbar-brand {
-	color: $textcolor1 !important;
-	font-size: 1.7em !important;
-	font-family: Roboto !important;
+nav a.navbar-brand {
+	color: $textcolor1;
+	font-size: 1.7em;
+	font-family: Roboto;
 	font-weight: bold;
 }
 
-.navbar-dark {
-	background-color: $menu-bg !important;
+nav.navbar {
+	background-color: $menu-bg;
 }
 
 
-.navbar-text {
-	font-family: Roboto !important;
+nav a.navbar-text {
+	font-family: Roboto;
 	font-size: 1em;
 	outline: none;
-	border: none;
-	color: $textcolor1 !important;
+	color: $textcolor1;
 	
 	margin: 0;
+	padding: 0;
 	
 	background-color: rgba(0,0,0,0);
 	
@@ -76,6 +84,14 @@ body {
 	}
 	
 }
+
+
+
+#inactive-link {
+	color: #CCC;
+}
+
+
 
 p {
 	color: #000;
@@ -140,7 +156,6 @@ a {
 .top-space2 {
 	margin-top: 2em !important;
 }
-
 
 .pizzaListTitle {
 	font-family: Roboto;

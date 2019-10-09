@@ -30,6 +30,14 @@ body {
   text-decoration: underline;
 }
 
+.under-border {
+  border-bottom: 0.05em solid #FFF;
+}
+
+.no-border {
+  border: none;
+}
+
 .centered {
   width: auto;
   display: block;
@@ -38,28 +46,32 @@ body {
   text-align: center;
 }
 
-.navbar-brand {
-  color: #FFF !important;
-  font-size: 1.7em !important;
-  font-family: Roboto !important;
+nav a.navbar-brand {
+  color: #FFF;
+  font-size: 1.7em;
+  font-family: Roboto;
   font-weight: bold;
 }
 
-.navbar-dark {
-  background-color: #000 !important;
+nav.navbar {
+  background-color: #2f3542;
 }
 
-.navbar-text {
-  font-family: Roboto !important;
+nav a.navbar-text {
+  font-family: Roboto;
   font-size: 1em;
   outline: none;
-  border: none;
-  color: #FFF !important;
+  color: #FFF;
   margin: 0;
+  padding: 0;
   background-color: rgba(0, 0, 0, 0);
 }
-.navbar-text:focus {
+nav a.navbar-text:focus {
   outline: none;
+}
+
+#inactive-link {
+  color: #CCC;
 }
 
 p {
