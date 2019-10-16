@@ -113,20 +113,34 @@ summary {
   width: max-content;
   background-color: #f1c40f;
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 0.1em 1em;
+}
+
+.last-summary {
+  margin: 0 auto 2em auto;
 }
 
 details[open] > * {
   animation: sweep 0.5s ease-in-out;
 }
 
+details[open] > .pizzaCard {
+  animation: fade 0.6s ease;
+}
+
 @keyframes sweep {
   from {
-    opacity: 0;
     margin: 0 auto 0 auto;
   }
   to {
     margin: 0 auto 2em auto;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
     opacity: 1;
   }
 }
