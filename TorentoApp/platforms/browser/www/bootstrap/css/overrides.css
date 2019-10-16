@@ -52,7 +52,7 @@ nav a.navbar-brand {
   font-size: 1.7em;
   font-family: Roboto;
   font-weight: bold;
-  padding: 0.4em 0em;
+  padding: 0.2em 0em;
 }
 
 nav.navbar {
@@ -73,13 +73,16 @@ nav a.navbar-text:focus {
   outline: none;
 }
 
+.soft-border {
+  border-radius: 0.3em;
+}
+
 #navbutton {
   color: #FFF;
   background-color: rgba(255, 255, 255, 0.15);
   /*border-bottom: 0.1em solid $border-color;*/
   /*border: 0.1em solid #000;*/
-  border-radius: 0.4em;
-  padding: 0.45em 0.5em;
+  padding: 0.25em 0.5em;
   margin: 0;
 }
 
@@ -151,9 +154,10 @@ details[open] summary ~ * {
   width: 87vw;
   border: 0.1em solid #fcedbb;
   border-radius: 0.3em;
+  overflow: hidden;
   margin: 0 auto 2em auto;
   padding: 0.3em 0 0 0;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0.4em 0.5em 1em 0.3em rgba(0, 0, 0, 0.15);
 }
 .pizzaCard img {
   background-color: #f2edd9;
