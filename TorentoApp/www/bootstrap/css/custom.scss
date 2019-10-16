@@ -137,23 +137,38 @@ summary {
 	padding: 0 1.5em;
 }
 
+
+
 details[open] > * {
-	animation: sweep .5s ease-in-out;
+	animation: sweep 0.5s ease-in-out;
 }
+
+details[open] > .pizzaCard {
+	animation: fade 0.6s ease;
+}
+
 
   
 @keyframes sweep {
 	from {
-		opacity: 0;
 		margin: 0 auto 0 auto;
 	}
 	
 	to {
 		margin: 0 auto 2em auto;
-		opacity: 1;
 	}
 }
 
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
 
 .size1 {
 	font-size: 1.5em;
