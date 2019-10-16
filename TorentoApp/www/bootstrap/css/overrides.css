@@ -113,7 +113,11 @@ summary {
   width: max-content;
   background-color: #f1c40f;
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 0.1em 1em;
+}
+
+.last-summary {
+  margin: 0 auto 2em auto;
 }
 
 details[open] > * {

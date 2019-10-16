@@ -134,7 +134,12 @@ summary {
 	width: max-content;
 	background-color: $border-color;
 	margin: 0 auto;
-	padding: 0 1.5em;
+	padding: 0.1em 1em;
+}
+
+
+.last-summary {
+	margin: 0 auto 2em auto;
 }
 
 
@@ -234,6 +239,7 @@ a {
 .top-space3 {
 	margin-top: 1em;
 }
+
 
 .pizzaListTitle {
 	font-family: Roboto;
