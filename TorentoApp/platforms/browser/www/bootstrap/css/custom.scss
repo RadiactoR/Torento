@@ -38,8 +38,6 @@ body {
 	color: $text-color1;
 }
 
-
-
 .basic-link {
 	text-decoration: underline;
 }
@@ -59,7 +57,6 @@ body {
 	margin: 0 auto;
 	text-align: center;
 }
-
 
 nav a.navbar-brand {
 	color: $text-color1;
@@ -135,7 +132,8 @@ p {
 .box {
     margin: 0 2em;
     text-align: center;
-    border: 0.1em solid rgba(0,0,0,0.2);
+	border: 0.1em solid rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.4);
 	padding: 2em 0.5em;
 }
 
@@ -145,6 +143,7 @@ p {
 	
 	width: 87vw;
 	border: 0.1em solid $card-color;
+	border-radius: 0.3em;
 	
 	margin: 0 auto 2em auto;
 	padding: 0.3em 0 0 0;
@@ -153,6 +152,7 @@ p {
 		background-color: hsl(47, 50, 90);
 		width: 100%;
 		max-height: 100%;
+		border-radius: 0.2em;
 	}
 	
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
