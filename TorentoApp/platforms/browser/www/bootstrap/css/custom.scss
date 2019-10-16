@@ -137,13 +137,21 @@ summary {
 	padding: 0 1.5em;
 }
 
-details[open] summary ~ * {
+details[open] > * {
 	animation: sweep .5s ease-in-out;
 }
+
   
 @keyframes sweep {
-	0%    {opacity: 0; margin: 0 auto; margin-top: 0;}
-	100%  {opacity: 1; margin: 0 auto 2em auto;}
+	from {
+		opacity: 0;
+		margin: 0 auto 0 auto;
+	}
+	
+	to {
+		margin: 0 auto 2em auto;
+		opacity: 1;
+	}
 }
 
 
