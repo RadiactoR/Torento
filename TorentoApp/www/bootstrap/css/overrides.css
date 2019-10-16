@@ -52,11 +52,12 @@ nav a.navbar-brand {
   font-size: 1.7em;
   font-family: Roboto;
   font-weight: bold;
+  padding: 0.4em 0em;
 }
 
 nav.navbar {
   background-color: #2f3542;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.4), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0.1em 1em 1em rgba(0, 0, 0, 0.2);
 }
 
 nav a.navbar-text {
@@ -73,14 +74,13 @@ nav a.navbar-text:focus {
 }
 
 #navbutton {
-  color: black;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 5px;
-}
-
-#navbutton:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: #FFF;
+  background-color: rgba(255, 255, 255, 0.15);
+  /*border-bottom: 0.1em solid $border-color;*/
+  /*border: 0.1em solid #000;*/
+  border-radius: 0.4em;
+  padding: 0.45em 0.5em;
+  margin: 0;
 }
 
 .logoimg {
@@ -97,6 +97,20 @@ p {
   color: #000;
   font-family: Roboto;
   font-weight: normal;
+}
+
+details summary {
+  text-align: center;
+}
+
+summary {
+  color: #000;
+  font-family: Roboto;
+  font-weight: normal;
+  width: max-content;
+  background-color: #f1c40f;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
 
 .size1 {
@@ -135,12 +149,17 @@ a:focus, a:hover, a:active {
   text-decoration: none;
 }
 
+/*Fixa*/
 .top-space1 {
   margin-top: 4em !important;
 }
 
 .top-space2 {
   margin-top: 2em !important;
+}
+
+.top-space3 {
+  margin-top: 1em;
 }
 
 .pizzaListTitle {
