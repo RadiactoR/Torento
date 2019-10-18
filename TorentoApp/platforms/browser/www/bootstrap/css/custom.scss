@@ -180,11 +180,11 @@ details[open] > .pizzaCard {
 }
 
 
-.container {
-	margin: 0 !important;
-	padding: 0 !important;
-	width: 100vw !important;
-	max-width: 100vw !important;
+div.container {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	max-width: 100vw;
 }
 
 
@@ -228,19 +228,19 @@ a {
 
 
 /*Fixa*/
-.top-space1 {
-	margin-top: 4em !important;
+
+p.pizzaListTitle.top-space1, p.top-space1 {
+	margin-top: 4em;
+}	
+
+section.top-space2, p.top-space2 {
+	margin-top: 2em;
 }
 
-.top-space2 {
-	margin-top: 2em !important;
-}
-
-.top-space3 {
+details.top-space3 {
 	margin-top: 1em;
 }
-
-
+	
 .pizzaListTitle {
 	font-family: Roboto;
 	font-size: 1.5em;
