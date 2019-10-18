@@ -137,30 +137,22 @@ summary {
 	padding: 0.1em 1em;
 }
 
-
 .last-summary {
 	margin: 0 auto 2em auto;
 }
-
-
 
 details[open] > * {
 	animation: sweep 0.5s ease-in-out;
 }
 
 details[open] > .pizzaCard {
-	animation: sweep 0.6s ease;
+	animation: fade 0.6s ease;
 }
-
-
   
 @keyframes sweep {
 	from {
 		margin: 0 auto 0 auto;
-	}
-	
-	to {
-		margin: 0 auto 2em auto;
+		opacity: 0;
 	}
 }
 
@@ -168,10 +160,6 @@ details[open] > .pizzaCard {
 @keyframes fade {
 	from {
 		opacity: 0;
-	}
-	
-	to {
-		opacity: 1;
 	}
 }
 
