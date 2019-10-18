@@ -86,6 +86,10 @@ nav a.navbar-text:focus {
   margin: 0;
 }
 
+#knapp {
+  box-shadow: 0 0.7em 1em 0.3em rgba(0, 0, 0, 0.1);
+}
+
 .logoimg {
   width: 20px;
   float: right;
@@ -133,6 +137,8 @@ details[open] > .pizzaCard {
     margin: 0 auto 0 auto;
     opacity: 0;
   }
+  /* No "to" is needed, since the final values
+  are already specified in ex. .pizzaCard */
 }
 @keyframes fade {
   from {

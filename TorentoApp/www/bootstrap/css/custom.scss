@@ -105,6 +105,9 @@ nav a.navbar-text {
 	margin: 0;
 }
 
+#knapp {
+	box-shadow: 0 0.7em 1em 0.3em rgba(0,0,0,0.10);
+}
 
 .logoimg {
 	width: 20px;
@@ -154,6 +157,8 @@ details[open] > .pizzaCard {
 		margin: 0 auto 0 auto;
 		opacity: 0;
 	}
+	/* No "to" is needed, since the final values
+	are already specified in ex. .pizzaCard */
 }
 
 @keyframes fade {
@@ -165,7 +170,6 @@ details[open] > .pizzaCard {
 .size1 {
 	font-size: 1.5em;
 }
-
 
 div.container {
 	margin: 0;
