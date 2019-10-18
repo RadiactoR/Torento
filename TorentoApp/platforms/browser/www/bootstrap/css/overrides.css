@@ -168,7 +168,7 @@ div.container {
   overflow: hidden;
   margin: 0 auto 2em auto;
   padding: 0.3em 0 0 0;
-  box-shadow: 0.4em 0.5em 1em 0.3em rgba(0, 0, 0, 0.15);
+  box-shadow: 0.4em 0.5em 1em 0.3em rgba(0, 0, 0, 0.2);
 }
 .pizzaCard img {
   background-color: #f2edd9;
