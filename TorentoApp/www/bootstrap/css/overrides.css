@@ -87,7 +87,10 @@ nav a.navbar-text:focus {
 }
 
 #knapp {
-  box-shadow: 0 0.7em 1em 0.3em rgba(0, 0, 0, 0.1);
+  margin-top: 1em;
+  /*box-shadow: 0.1em 0.1em 1em 0.1em rgba(0,0,0,0.10);*/
+  background-color: #4285F4;
+  color: #FFF;
 }
 
 .logoimg {
@@ -137,8 +140,6 @@ details[open] > .pizzaCard {
     margin: 0 auto 0 auto;
     opacity: 0;
   }
-  /* No "to" is needed, since the final values
-  are already specified in ex. .pizzaCard */
 }
 @keyframes fade {
   from {
@@ -187,7 +188,6 @@ a:focus, a:hover, a:active {
   text-decoration: none;
 }
 
-/*Fixa*/
 p.pizzaListTitle.top-space1, p.top-space1 {
   margin-top: 4em;
 }
