@@ -88,7 +88,7 @@ nav a.navbar-text:focus {
 
 #knapp {
   margin-top: 1em;
-  /*box-shadow: 0.1em 0.1em 1em 0.1em rgba(0,0,0,0.10);*/
+  /* box-shadow: 0.1em 0.1em 1em 0.1em rgba(0,0,0,0.10);*/
   background-color: #4285F4;
   color: #FFF;
 }
@@ -225,6 +225,11 @@ details.top-space3 {
   padding: 0 0 0.3em 0.5em;
   margin: 0;
   font-weight: normal;
+}
+
+#botmargnull {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=overrides.css.map */
