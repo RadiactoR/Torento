@@ -1,2 +1,2 @@
 # Torento
-Best app there ever was
+Design concept for a menu application för a pizzeria (school assignment)
